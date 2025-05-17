@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEC Chatbot</title>
+    <link rel="icon" href="./images/chatbot_robo.png">
+   
+</head>
+
+<body>
+
+    <nav >
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#" id="ask-to-bot">Ask to Bot</a></li> 
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+
+        </ul>
+    </nav>
+        <div >
+            <div class="chatbox">
+                <div class="gec_chatbot" style="position: fixed; bottom: 50px; right: 50px;">
+                    <div class="chatbox_header">
+                        <div class="chatbox_image-header">
+                            <img src="./static/images/chatbot_robo.png" alt="image">
+                        </div>
+                        <div class="chatbox_content-header">
+                            <h4 class="chatbox_heading-header">GEC Chatbot</h4>
+                            <p class="chatbox_description-header">Hey, How can I help you?</p>
+                        </div>
+                    </div>
+                    <div class="chatbox_messages" style="color: white;">
+                        <div></div>
+                    </div>
+                    <div class="chatbox_footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox_send-footer send_button" >
+                        <img src="./static/images/send_button.png" alt="Send"></button>
+                    </div>
+                </div>
+                <div  class="chatbox_button" style="position: fixed; bottom: 50px; right: 50px;">
+                    <button  class="buttons", style="color: black; scale: 1.5;" >Ask to bot </button>
+                </div>
+            </div>
+        </div>
+      
+
+    <section id="home" class="home">
+        <div id="home2"><img src="./static/images/image.png" style="height: 100dvh;">
+            <div class="home3" ><h2 >College Enquiry Bot</h2>
+                <p style="font-size: large;text-align: justify;">Welcome to the College Assistant Bot, your go-to virtual guide for navigating through college-related queries! Whether you're a prospective student, a parent, or a current student, I'm here to help answer your questions about admissions, courses, campus facilities, events, and more. Just type in your question, and I'll provide you with the information you need to make your college experience smooth and successful. Let's get started!</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="about"  class="bg-style">
+            <h2>About Us</h2>
+            <p>
+                Welcome to GECR's innovative project on developing a college inquiry chatbot! Spearheaded by our esteemed mentor,Prof. Sheetal J. Nagar, and diligently crafted by our talented students, Rutvik Teraiya,Harsh Tank,Meet Garasiya and Rohan Mori this endeavor represents the pinnacle of our commitment to excellence and technological advancement.<br><br>
+                
+                Rutvik Teraiya and Harsh Tank, with their unparalleled enthusiasm and relentless pursuit of innovation, have brought this vision to life. Their collaborative efforts have resulted in the creation of a sophisticated chatbot designed to streamline the college inquiry process, providing instant assistance and accurate information to all stakeholders. <br><br>
+                
+                This project embodies our commitment to fostering creativity, critical thinking, and technological proficiency among our students. Through initiatives like this, we strive to prepare our graduates to thrive in an ever-evolving global landscape, equipped with the skills and knowledge necessary to make meaningful contributions to society. <br><br>
+                
+                Join us as we embark on this exciting journey of exploration and discovery, redefining the boundaries of higher education one innovation at a time.
+                
+                Welcome to the future of inquiry, welcome to chatBot.</p>
+    </section>
+    
+    <section id="feedback" class="bg-style" >
+            <h2 style="margin: 15px;">Feedback</h2>
+            <form id="feed" name="submit-to-google-sheet">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name..." required>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..." required></textarea>
+                <button type="submit" class="buttons" >Submit</button>
+                <span id="msg"></span>
+            </form>
+
+    </section>
+    
+    <section id="contact" class="bg-style" >
+            <h2 style="margin: 15px 0px;">Contact</h2>
+            <form id="con" action="https://formspree.io/f/xldrrenj" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name..." required>
+                <label>Your email:</label>
+                <input type="email" name="email" placeholder="Enter your email address">
+                <label> Your message:</label>
+                <textarea name="message" rows="4" placeholder="Enter your message here..."></textarea>
+                <button type="submit" class="buttons">Send</button>
+            </form>
+    </section>
+
+   
+  
+ 
+    <section id="faq" class="container" >
+      <h2 style="margin: 14px 0p;">Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button class="faq-question">What is the admission process?</button>
+        <div class="faq-answer">
+          <p>The Process of admission is ACPC rank based. You can apply there for Admission in GECR. For more information visit GECR Campus or the <a href="https://gecrajkot.ac.in/" target="_blank">GECR Website</a>.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How long is the course duration?</button>
+        <div class="faq-answer">
+          <p>Our college offers a 4-year long BE course.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What facilities are available?</button>
+        <div class="faq-answer">
+          <p>With excellent education facilities, our college provides various other facilities like all-day internet, supercomputer (PARAM), library, hostel, classes with good decor management, discussion room, parking space, and student service for any student queries.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What are the college timings?</button>
+        <div class="faq-answer">
+          <p>Our college premises are open from 11:00 am to 6:00 pm, Monday to Friday.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What is the hostel fee structure?</button>
+        <div class="faq-answer">
+          <p>The hostel fee structure is as follows:</p>
+          <ul>
+            <li>First-time admitted student: Rs.2250</li>
+            <li>Renewal admission: Rs.2200</li>
+          </ul>
+          <p>Note that hostel fees are non-refundable. For more details, visit the <a href="https://gecrajkot.ac.in/hostel/" target="_blank">GEC Rajkot Hostel Page</a>.</p>
+        </div>
+      </div>
+    </section>
+  
+        
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwhw7OH3vRl5bs0MUeuB_yJ9ubP1xTFM0XCcz9iJfuL4_VSu3Cu_1RGCeayhYqGqZyn/exec';
+      const form = document.forms['submit-to-google-sheet'];
+      let msg=document.getElementById("msg");
+
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Feedback sent successfully!"
+              setTimeout(function(){
+                  msg.innerHTML="";
+              },1500)
+              form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+    <script  type="text/javascript" src="./app.js"></script>
+</body>
+</html>
