@@ -1,0 +1,422 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey ",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+          "name",
+          "your name",
+          "do you have a name",
+          "what are you called",
+          "what is your name",
+          "what should I call you",
+          "whats your name?",
+          "what are you",
+          "who are you",
+          "who is this",
+          "what am i chatting to",
+          "who am i taking to",
+          "what are you"
+      ],
+      "responses": [
+          "You can call me College Enquiry chatbot or Helper.",
+          "I'm your Helper.",
+          "I am a Chatbot.",
+          "I am your helper"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["What is admission process?", "How can i take admission", "admission process"],
+      "responses": [
+        "The Process of admission is ACPC rank based,You can apply there for Admission in GECR. For more information visit GECR Campus OR  <a target=\"_blank\" href=\" https://gecrajkot.ac.in/\">GECR Website</a>"
+      ]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": [
+        "how long will be BE course",
+        "how long will it take to complete BE course",
+        "courseduration"
+      ],
+      "responses": ["Our college offers 4 year long BE course."]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "location",
+        "where is it located",
+        "what is the location of the college"
+      ],
+      "responses": [
+        "Government Engineering College is situated On Mavadi-Kankot Road, Near Hanuman Mandir, Rajkot .....<b><a target=\"_blank\" href=\"https://maps.app.goo.gl/MpzAfNmUw7qYRznC8\">GOOGLE Map Link</a>"
+      ]
+    },
+    {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year",
+        "how many semesters one should study in a year"
+      ],
+      "responses": ["There are two semesters in a year."]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": [
+        "how many months are there in a semester",
+        "how long will be a single semester",
+        "semester duration"
+      ],
+      "responses": ["The single semester will be around 4 months."]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+          "timing of college",
+          "what is college timing",
+          "working days",
+          "what are your hours",
+          "hours of operation",
+          "when is the college open",
+          "college timing",
+          "what about college timing",
+          "is college open on saturday",
+          "tell something about college timing",
+          "what is the college  hours",
+          "when should i come to college",
+          "when should i attend college",
+          "what is my college time",
+          "college timing",
+          "timing college"
+      ],
+      "responses": 
+        "You can message us here at any hours. But our college premises will be open from 11:00 am to 6:00 pm  , Monday to Friday only."
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by the college?",
+        "what are the facilities of college for students",
+        "what are the college infrastructures ",
+        "facilities"
+      ],
+      "responses": [
+        "With excellent education facilities, Our College provides various other facilities like all day internet, supercomuper (PARAM), library,hostel, classes with Good Decor Management, discussion room,parking space, and student service for any students queries."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "How many departments are there?",
+        "In which which field i can do bachelor there?",
+        "Numbers of departments?",
+        "Which course i can persue in GECR?",
+        "departments"
+      ],
+      "responses": [
+        "We have several departments in here GECR, Computer Department ,<br> Electronic and communication,<br> Civil,Artificial intelligence and data science,<br> Electrical Department,<br>Mechanical Department,<br> and  Automobile<br> you can also visit <a target=\"_blank\" href=\" https://gecrajkot.ac.in/\"> Our GECR Website</a> for more details "
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "What is sports facility?",
+        "sports",
+        "sport"
+      ],
+      "responses": [
+        "We arrange URJA sports week every year for our sport enthusiast students for more details visit <a target=\"_blank\" href=\" https://gecrajkot.ac.in/sports/\"> Sports</a> "
+      ]
+    },
+    {
+      "tag": "Cost",
+      "patterns": [
+        "What is the cost of tuition and fees?",
+        "Fees",
+        "Charges",
+        "cost"
+      ],
+      "responses": [
+        "For Boys Rs. 1500/- per Year. Free education for Girls."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+          "food facilities",
+          "canteen facilities",
+          "canteen facility",
+          "is there any canteen",
+          "Is there a cafetaria in college",
+          "Does college have canteen",
+          "Where is canteen",
+          "where is cafetaria",
+          "canteen",
+          "Food",
+          "Cafetaria"
+      ],
+      "responses": [
+          "Our college has canteen with variety of food available type <b>menu<b/> for list of menu"
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "menu",
+      "patterns": [
+          "food menu",
+          "food in canteen",
+          "Whats there on menu",
+          "what is available in college canteen",
+          "what foods can we get in college canteen",
+          "food variety",
+          "menu",
+          "What is there to eat?"
+      ],
+      "responses": [
+          "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ],
+      "context_set": ""
+  },
+  {
+      "tag": "placement",
+      "patterns": [
+          "What is college placement",
+          "Which companies visit in college",
+          "What is average package",
+          "companies visit",
+          "package",
+          "About placement",
+          "placement",
+          "recruitment",
+          "companies"
+      ],
+      "responses": [
+          "To know about placement visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/placement/#\">Placement and training</a>"
+      ],
+      "context_set": ""
+  },
+    {
+      "tag":"studentclub",
+      "patterns":[
+        "studentclub",
+        "is there any student club available",
+        "which are student club available",
+        "student club facilities",
+        "facilities student club",
+        "which are student club facility available"
+      ],
+      "responses":[
+        "Our College provides various facilities for student club like <a target=\"_blank\" href=\" https://gdsc.community.dev/government-engineering-college-rajkot-india/\"> Google Development Student Club </a>, <br>  <a target=\"_blank\" href=\"https://codechef-gec-rajkot-chapter.github.io/main/\"> codechef-gec-rajkot-chapter </a>,  <br>  GATE-Higher and Abroad Studies Club,<br> For maore details visit <a target=\"_blank\" href=\" https://gecrajkot.ac.in/student-clubs/\"> student clubs</a> "
+      ]
+
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+          "hostel facility",
+          "hostel servive",
+          "hostel location",
+          "hostel address",
+          "hostel facilities",
+          "hostel fees",
+          "Does college provide hostel",
+          "Is there any hostel",
+          "Where is hostel",
+          "do you have hostel",
+          "do you guys have hostel",
+          "hostel",
+          "hostel capacity",
+          "what is the hostel fee",
+          "how to get in hostel",
+          "what is the hostel address",
+          "how far is hostel from college",
+          "hostel college distance",
+          "where is the hostel",
+          "how big is the hostel",
+          "distance between college and hostel",
+          "distance between hostel and college"
+      ],
+      "responses": [
+          "For hostel detail visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/hostel/\">gerc hostel</a>",
+          "The hostels at GEC-Rajkot is more than four walls and a roof.They have been designed to provide a comfortable, safe, inclusive and secure living even as they provide opportunities to form lasting friendships and ease the transition from hostel to college.<br> Two hostel blocks are available in the campus (Both blocks are Boys’ hostel, No Girls’ Hostel) with a total intake capacity of 300 students. At the hostel, students are accommodated in triple sharing rooms.<br> The hostel is administered by the rector and wardens appointed for each block by Commissionerate of Technical Education (CTE), Gandhinagar.<br> Admissions are given to students who are residing at least 30 kms away from the hostel based on ACPC merit. <br>Each hostel room is provided with beds, tables, chairs & cupboards. Other facilities shall be provided as and when the government deems fit. <br>For any query regarding hostel,  send an email to: hostel@gecrajkot.ac.in <br> For hostel detail visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/hostel/\">gerc hostel</a>",
+          "fee structure of hostel : For first time admitted student Rs.2250 <br> for renewal admission Rs.2200 <br> Note that Hostel Fees are non Refundable. <br> For hostel detail visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/hostel/\">gerc hostel</a>",
+          "with a total intake capacity of 300 students , Two hostel blocks are available in the campus (Both blocks are Boys hostel, No Girls Hostel) . At the hostel, students are accommodated in triple sharing rooms.<br> For hostel detail visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/hostel/\">gerc hostel</a>"
+      ]
+  },
+    {
+      "tag":"gecr",
+      "patterns":[
+        "about gecr",
+        "government engineering college",
+        "gecr",
+        "about college",
+        "give details about gecr",
+        "college"
+         ],
+         "responses":[
+          "WELCOME TO GEC Rajkot<br>GEC Rajkot was established by Government of Gujarat in the year 2004 with a vision to provide quality technical education to bring out technically competent, socially responsible, environmentally conscious and ethically sound engineers in tune with India’s vision to transform the nation into a developed country.<br> Institute is located opposite to Kankot Village which is 15 minute drive from Rajkot City. Rajkot is central location of Saurashtra and Kutch region. <br>This institute is approved by All India Council for Technical Education (AICTE) and affiliated to Gujarat Technological University, Ahmedabad. <br>Institute offers programs in Electronics & Communication Engineering, Computer Engineering, Instrumentation and Control Engineering, Mechanical Engineering, Civil Engineering, Automobile Engineering and Electrical Engineering.<br>GEC Rajkot is putting the best efforts to create vibrant atmosphere to motivate students for learning and to make the institution a preferred destination for learners in the field of technical education. Institute has done significant progress in last decade and will continue to grow in future. GEC Rajkot has got well developed state of the art laboratories, library, language lab and computer centre under Technical Education Quality Improvement Programme (TEQIP-II. GEC Rajkot also promote innovations through Student Start-up and Innovation Policy (SSIP) initiative of State Government. GEC Rajkot has also got Centre of Excellence (CoE) in collaboration with SIEMENS to encourage research and development activities. GEC Rajkot is committed in taking constructive and purposeful actions to produce engineers who are life-long learners and contributors for the progress of Gujarat and India.<br> For more Details visit<a target=\"_blank\" href=\" https://gecrajkot.ac.in/\"> Our GECR Website</a>"
+         ]
+    },
+    {  "tag": "Extracurricular",
+      "patterns": [
+        "What extracurricular activities are available?",
+        "Extracurricular"
+      ],
+      "responses": [
+        "We offer a wide range of extracurricular activities, including student clubs and organizations, sports,community service opportunities, and more. You can explore our list of clubs and activities on <a target=\"_blank\" href=\" https://gecrajkot.ac.in/\"> Our GECR Website</a>"
+      ]
+    },
+    {
+      "tag": "co-curricular",
+      "patterns": [
+        "What cocurricular activities are available?",
+        "Co-curricular",
+        "cocurricular",
+        "event"
+      ],
+      "responses": [
+        "We organize various technical events, competition, Hackathon, Seminars, Webinars, expert talks on the recent trend of technologies, industrial visit and many more for overall development of the students in the field of engineering."
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "What are the career services available to students?",
+        "Career",
+        "Job",
+        "oppurtunities"
+      ],
+      "responses": [
+        "We offer a range of career services to help students explore career options, gain work experience, and prepare for the job market. Our services include resume writing assistance, mock interviews, job fairs, internship opportunities, and more. You can learn more about our career services on our website or contact our career center for personalized support."
+      ]
+    },
+    {
+      "tag": "Programs",
+      "patterns": [
+        "What programs does your college offer?",
+        "Courses",
+        "Branches",
+        "Departments",
+        "Engineering"
+      
+      ],
+      "responses": [
+        "Our college offers a wide range of engineering programs including Computer Engineering,<br> Artificial Intelligence and Data Science,<br> Electronics and Communication Engineering,<br> Mechanical Engineering,<br> Civil Engineering,<br> Electrical Engineering,<br> Instrumentation and Control Engineering and Robotics and Automation Engineering . You can explore our full list of programs on <a target=\"_blank\" href=\" https://gecrajkot.ac.in/\"> Our GECR Website</a> or ask for specific details"
+      ]
+    },
+    {
+      "tag": "bonafide",
+      "patterns": [
+          "document to bring",
+          "documents needed for bonafide",
+          "documents needed at the time of bonafide",
+          "documents required for bonafide",
+          "documents required at the time of bonafide",
+          "What document are required for bonafide",
+          "Which document to bring for bonafide",
+          "bonafide",
+          "what documents do i need for bonafide",
+          "what documents do I need for bonafide"
+      ],
+      "responses": [
+          "you required below listed document for bonafide certificate <br><ul><li>latest GTU Grade history(for 1st sem students last passing year Result)</li><br><li>Current sem/year Fee reciept</li><br><li>Copy of id card or adharcard</li><br><li>Passport size photo</li></ul><br> for more details visit<a target=\"_blank\" href=\"https://gecrajkot.ac.in/student-section/\"> Student section</a>"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+          "document for scholarship",
+          "documents needed for scholarship",
+          "documents needed at the time of scholarship",
+          "documents required for scholarship",
+          "documents required at the time of scholarship",
+          "What document are required for scholarship",
+          "Which document to bring for scholarship",
+          "scholarship",
+          "list of scholarship",
+          "what documents do i need for scholarship",
+          "is any scholarship ",
+          "which are scholarship in college"
+      ],
+      "responses": [
+          "  Many government scholarships are supported by our college  like digital gujrat , mysy scholarship, national scholarship etc..<br> you required below listed document for scholarships:  <br><ul><li>latest GTU Grade history(for 1st sem students last passing year Result)</li><br><li>Current sem/year Fee reciept</li><br><li>Copy of id card or adharcard</li><br><li>Passport size photo</li><br><li></li><br><li>First page of bank passbook</li><br><li>Income certificate</li><br><li>Current year bonofide </li><br><li>Caste certificate</li><br><li>School leaving Certificate(if any)</li><br><li>Hostel Certificate</li></ul><br> for more details visit <a target=\"_blank\" href=\"https://gecrajkot.ac.in/scholarships/\"> Scholarship details</a>"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+          "is there any library",
+          "library facility",
+          "library facilities",
+          "do you have library",
+          "does the college have library facility",
+          "college library",
+          "where can i get books",
+          "book facility",
+          "Where is library",
+          "Library",
+          "Library information",
+          "Library books information",
+          "Tell me about library"
+      ],
+      "responses": [
+          "There is one huge and spacious library.timings are 11 am to 5pm and for more visit <b><a target=\"blank\" href=\"https://gecrajkot.ac.in/library/\">Library</a></b> <br> for available books<b> <a targer:\"_blank\" href:\"https://docs.google.com/spreadsheets/d/1Kl0VcsphXSX4a4ifp6Zo7eagX5tdHDY7/edit?pli=1&gid=482452507#gid=482452507\">list of Books</a></b>" 
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Admission requirements",
+      "patterns": [
+        "What are the admission requirements?",
+        "AdmissionCriteria",
+        "Admission requirements"
+      ],
+      "responses": [
+        "Admission requirements are 12th Science with minimum 45% in PCM component along with GUJCET in the current admission year or Diploma completion in the relevant branch of engineering. Admission can be made through ACPC Gujarat only.",
+        "Admission process to all UG programs is carried out by the state level Admission Committee for Professional Courses (ACPC). For more details, visit <a target=\"_blank\"href=\" www.jacpcldce.ac.in/be.asp\">ACPC Website</a>"
+      ]
+    }
+  ]
+}
